@@ -33,11 +33,15 @@ The project uses R, Python, Jupyter, and Bioconductor tools to perform:
 
 ## Results
 
-The strongest finding is an ISG15-associated methylation signal. Two neighboring CpGs upstream of ISG15 showed directionally consistent hypomethylation across the infant and adolescent cohorts. The adolescent RNA-seq data also showed decreased ISG15 expression, providing additional biological support.
+The strongest finding is an ISG15-associated methylation signal. Two neighboring CpGs upstream of ISG15, cg08469540 and cg25610492, showed direction-consistent hypomethylation in allergic samples across both the infant and adolescent cohorts.
 
-RGS14 was also identified as a candidate and is retained as an exploratory finding. However, the evidence for RGS14 is not strong enough to describe it as a validated or independently replicated biomarker.
+The two-probe region also produced nominally significant results in both cohorts, with p = 0.0175 in GSE114134 and p = 0.00589 in GSE189148. Although these results did not remain significant after family-wise error correction, the consistency in direction and location taken with the permutation null results provide a strong candidate for further investigation.
 
-The methylation and regional findings should therefore be considered candidates for future validation, particularly because several results do not remain significant after multiple-testing correction.
+The corresponding RNA-seq analysis provides additional biological support. In GSE189149, the region was associated with decreased ISG15 expression (log₂FC ≈ −0.926), closely matching the published estimate of −0.931.
+
+RGS14 was also identified as a candidate during the analysis and is retained as an exploratory finding. While it does not have the same level of evidence as ISG15, it provides an additional candidate for future investigation.
+
+Taken together, the results identify ISG15 as the strongest molecular candidate, supported by cross-cohort methylation concordance, regional analysis, and an independent transcriptomic signal. These findings remain exploratory and require validation in additional cohorts.
 
 ## Conclusions
 
