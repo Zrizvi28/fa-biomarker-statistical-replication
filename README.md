@@ -47,8 +47,11 @@ Overall, this project emphasizes statistical consistency and biological interpre
 
 ## Repo Structure
 ├── notebooks/ 
+
 ├── scripts/ 
+
 ├── data/ 
+
 └── results/
 
 ## Project Status
